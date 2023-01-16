@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap5app",
+  "version": "1.0.0",
+  "description": "Bootstrap5 CheatSheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horatiu-cod/bootstrap5.git"
+  },
+  "author": "Horatiu-cod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/horatiu-cod/bootstrap5/issues"
+  },
+  "homepage": "https://github.com/horatiu-cod/bootstrap5#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
