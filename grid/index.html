@@ -96,9 +96,9 @@
     <!-- col*-auto -->
     <div class="container-lg my-5">
       <div class="row justify-content-md-center">
-        <div class="col col-lg-2">1 of 3</div>
-        <div class="col-md-auto">Variable width content 2 of 3</div>
-        <div class="col col-lg-2">3 of 3</div>
+        <div class="col col-lg-2 border">1 of 3</div>
+        <div class="col-md-auto border">Variable width content 2 of 3</div>
+        <div class="col col-lg-2 border">3 of 3</div>
       </div>
       <div class="row">
         <div class="col border">1 of 3</div>
@@ -110,12 +110,29 @@
     <!-- row-cols#-->
     <div class="container-lg my-5">
         <div class="row row-cols-3">
-            <div class="col">Column</div>
-            <div class="col">Column</div>
-            <div class="col">Column</div>
-            <div class="col">Column</div>
+            <div class="col border">Column</div>
+            <div class="col border">Column</div>
+            <div class="col border">Column</div>
+            <div class="col border">Column</div>
+            <div class="col border">Column</div>
+            <div class="col border">Column</div>
           </div>
     </div>
+
+    <!-- row-cols*-#-->
+    <div class="container-lg my-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xxl-6">
+            <div class="col border">Column</div>
+            <div class="col border">Column</div>
+            <div class="col border">Column</div>
+            <div class="col border">Column</div>
+            <div class="col border">Column</div>
+            <div class="col border">Column</div>
+          </div>
+    </div>
+
+
+
 
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
